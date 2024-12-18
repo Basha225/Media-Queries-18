@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+         /* Question 1  */
+body{
+    text-align: center;
+}
+
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+     /* Question 2  */
+
+#p{
+    margin: 40px 0px 0px;
+}
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    #p{
+        font-size: 18px;
+    }
+}
+
+
+     /* Question 3  */
+
+.container{
+    background-color: red;
+    padding: 20px;
+}
+/* .item{
+    width: 300px;
+    /* height: 10px; 
+} */
+
+.item1{
+    background-color: yellow;
+}
+.item2{
+    background-color: blue;
+}
+
+.item3{
+    background-color: gray;
+}
+.item4{
+    background-color: green;
+}
+
+@media screen and (min-width : 480px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+     /* Question 4  */
+
+@media screen and (min-width : 500px) and (max-width : 800px) {
+    h1{
+        color: green;
+    }
+}
+
+     /* Question 5  */
+
+.img{
+    width: 500px;
+    height: 600px;
+}
+@media screen and (width <=400px) {
+    .img{
+        display: none;
+    }
+
+}
+     /* Question 6  */
+
+
+.container2{
+    background-color: yellow;
+    text-align: justify;
+}
+
+@media screen and (min-width : 1024px){
+    .container2{
+        padding: 20px;
+    }
+}
+
+     /* Question 7  */
+
+#header{
+    /* width: 40vw; */
+    background-color: #33ffff;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+nav>a{
+    text-decoration: none;
+    color: red;
+}
+nav{
+    width: 140px;
+    background-color: yellow;
+    text-align: center;
+}
+@media screen and (min-width : 600px) and (max-width : 1200px){
+    #header{
+        background-color: lightgray;
+    }
+}
+
+
+     /* Question 8  */
+p{
+    font-size: 28px;
+}
+@media screen and (max-width : 480px){
+    p{
+        font-size: 16px;
+    }
+}
+
+     /* Question 9  */
+.container3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sub1{
+    background-color: red;
+}
+.sub2{
+    background-color: yellow;
+}
+@media screen and (min-width : 768px) and (max-width : 1200px){
+    .container3{
+        flex-direction: column;
+    }
+}
+
+
+     /* Question 10  */
+#img{
+    width: 400px;
+    height: 300px;
+}
+@media screen and (max-width : 600px){
+    #img{
+        width: 100%;
+    }
+}
+
+     /* Question 11  */
+
+.anchor{
+    text-decoration: none;
+}
+@media screen and (min-width : 700px) and (max-width : 1200px){
+    .anchor{
+        text-decoration: underline 1px blue;
+    }
+}
+
+     /* Question 12  */
+
+@media screen and (min-width : 500px) and (max-width : 800px){
+
+    h2{
+        font-size: 24px;
+    }
+
+}
+
+ /* Question 13  */
+
+.sub4{
+    width: 300px;
+    height: 200px;
+    border: none;
+    position: relative;
+    left: 40%;
+
+}
+
+
+@media screen  and (min-width : 1024px) {
+    .sub4{
+        border: 1px solid;
+    }
+}
+
+     /* Question 14  */
+
+.sidebar{
+    width: 170px;
+    height: 120px;
+    background: red;
+    position: relative;
+    
+}
+.p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@media screen and (min-width : 800px) and (max-width : 1200px) {
+    .sidebar{
+        width: 250px;
+    }
+}
+.main{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.class1{
+    background-color: yellow;
+}
+.class2{
+    background-color: red;
+}
+
+.class3{
+    background-color: gray;
+}
+.class4{
+    background-color: green;
+}
+
+     /* Question 15  */
+
+@media screen and (min-width : 600px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
